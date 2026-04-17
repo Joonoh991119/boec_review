@@ -25,12 +25,18 @@ retired from rotation once a round has been committed against it.
   **Retired R1** — ACCEPT Ganguli's framing: H6 / H7 are endpoints of
   the same α-axis; no new discrete cells added.
 
+- L07 — **Identifiability proofs vs. practical sample size.**
+  **Retired R2** — ACCEPT. HWW 2025 Theorem 3 requires multi-noise
+  data; mirror-skew design provides partial escape only. Hierarchical
+  group-level inference is the realistic target.
+- L14 — **Hahn-Wei 2022 P/P ratio as primary discriminator.**
+  **Retired R2** — ACCEPT in part (Quine bundle declaration) /
+  ACCEPT (Popper rejection-threshold demand). Q(θ) remains an
+  interpretive scalar with a provisional Z > 2 falsifier, NOT in the
+  primary discriminator table.
+
 ## Active backlog
 
-- L07 — **Identifiability proofs vs. practical sample size.**
-  Hahn-Wang-Wei 2025 proves identifiability under multi-noise-level
-  data. The present design has two priors but a single effective noise
-  level per subject. Does the identifiability guarantee transfer?
 - L08 — **Experimental-parameter sensitivity.** Mirror-skew α choice,
   prior SD, and theta range: which combinations collapse vs. preserve
   H1–H5 separability? Robustness audit of the experimental design.
@@ -55,9 +61,20 @@ retired from rotation once a round has been committed against it.
   subjective prior. Empirical evidence on the time course of
   prior-learning in mirror-skew designs is sparse; does this matter
   for MCMC?
-- L14 — **Hahn-Wei 2022 P/P ratio as a summary statistic.** The
-  additive-decomposition framework reduces bias direction to a single
-  ratio Q(θ). Should the simulator promote Q(θ) to a primary
-  discriminator alongside (bias-sign, α_sda)?
 - L15 — **Confounders in the mirror-skew design.** Stimulus order,
   adaptation, response mapping. Do any erase the bias-sign signature?
+
+## Additions queued (against anchor-paper overfit)
+
+- L16 — **Neural population-code evidence for timing.** The simulator's
+  efficient-CDF commitment rests on vision (MT) and orientation (V1)
+  neural data. What does the timing literature say at the neural
+  population level?
+- L17 — **Bayesian-alternative unified accounts.** Beyond Hahn-Wei
+  2022 additive decomposition, other unifying frameworks: Bayesian
+  Efficient Coding (Park & Pillow 2020), likelihood shape approaches
+  (Beck et al.), rational inattention (Woodford). Are any a better
+  fit than efficient-coding for timing?
+- L18 — **Replication status of the 8 anchor papers.** Has any of
+  the 8 been replicated or challenged by independent groups? Any
+  null results to consider?

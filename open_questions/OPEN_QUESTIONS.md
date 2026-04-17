@@ -40,3 +40,27 @@ where these differ?
 **Status**: deferred to a later round that picks up L10 (generative-
 model assumption audit) or L11 (empirical precedent for efficient-CDF
 encoding in timing).
+
+---
+
+## From R2
+
+### Q04 — Q-integral rejection threshold null distribution
+A Z > 2 threshold was committed provisionally as a BOEC-family
+falsifier on the integrated Q(θ). The null distribution depends on
+each auxiliary bundle member (Gaussian noise, veridical prior,
+stationary prior, BLS, no motor noise); a systematic sweep under
+each failure mode would tighten the threshold.
+
+**Status**: deferred, paired with L10.
+
+### Q05 — hierarchical-HMC power analysis
+Under the current experimental design (2 priors × ≈ 700 trials ×
+≈ 30 subjects), quantify per-subject posterior breadth vs.
+group-level posterior tightness for (i) mean Weber fraction, (ii)
+mean α (continuous BOEC-family parameter), (iii) subjective-prior
+parameters under partial-veridical relaxations.
+
+**Status**: deferred — likely requires out-of-scope simulation with
+synthetic datasets and full HMC fitting, which is simulator-code
+work, not theoretical review.
