@@ -95,6 +95,7 @@ boec_review/
 | R0 | Loop setup | done | [R0] initial commit |
 | R1 | L04 design circularity · L05 theoretical coherence · L06 H6/H7 | done | [R1] see `rounds/R01_synthesis.md` |
 | R2 | L07 identifiability × sample size · L14 Q(θ) discriminator | done | [R2] see `rounds/R02_synthesis.md` |
+| R3 | L11 efficient-CDF in timing · L12 alt frameworks · L13 prior dynamics | done | [R3] see `rounds/R03_synthesis.md` |
 
 (Future rounds appended by the loop.)
 

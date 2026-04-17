@@ -64,3 +64,18 @@ parameters under partial-veridical relaxations.
 **Status**: deferred — likely requires out-of-scope simulation with
 synthetic datasets and full HMC fitting, which is simulator-code
 work, not theoretical review.
+
+---
+
+## From R3
+
+### Q06 — time-varying prior in HMC
+Fit the hierarchical HMC with a time-varying $p^{\mathrm{subj}}(\theta)$
+(sliding-window or linear-drift parameterisation on the skew
+parameter) to quantify the contribution of within-session prior
+learning to α_sda estimates. Sohn-Lee 2013 and Narain 2018 motivate
+a prior-width shrinkage dynamic; Roach 2016 motivates a
+tens-of-trials learning rate.
+
+**Status**: deferred — simulator code change, out of scope for
+theoretical review.

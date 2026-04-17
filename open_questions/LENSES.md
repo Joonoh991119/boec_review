@@ -35,6 +35,28 @@ retired from rotation once a round has been committed against it.
   interpretive scalar with a provisional Z > 2 falsifier, NOT in the
   primary discriminator table.
 
+- L11 — **Empirical precedent for efficient-CDF encoding in timing.**
+  **Retired R3** — ACCEPT. No duration-domain neural study has
+  documented MT-style log-tiling with prior-CDF density; the
+  efficient-CDF commitment is a domain transfer. Simulator now
+  states this explicitly in §Working hypotheses preamble.
+- L12 — **Alternative observer frameworks.**
+  **Retired R3** — ACCEPT. Simulator adds §'Models we did not fit'
+  naming TDDM (Simen 2013), population clock (Paton-Buonomano
+  2018), rational inattention (Woodford 2020) as unfitted
+  alternatives; HMC conclusions conditional on Bayesian meta-model.
+- L13 — **Prior-learning dynamics.**
+  **Retired R3** — ACCEPT. Stationary-prior assumption violated
+  by Sohn-Lee 2013, Narain 2018, Roach 2016, Wang-Luo-Ivry 2023.
+  Simulator adds stationarity caveat in §Design axes and closures.
+- L16 — **Neural population-code evidence for timing.**
+  **Retired R3** — covered by L11.
+- L17 — **Bayesian-alternative unified accounts.**
+  **Retired R3 (partial)** — covered by L12 (TDDM, population
+  clock, rational inattention); Bayesian Efficient Coding (Park &
+  Pillow 2020) and likelihood-shape approaches still pending, to
+  be revisited if a future round picks them up.
+
 ## Active backlog
 
 - L08 — **Experimental-parameter sensitivity.** Mirror-skew α choice,
