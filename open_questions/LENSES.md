@@ -57,29 +57,24 @@ retired from rotation once a round has been committed against it.
   Pillow 2020) and likelihood-shape approaches still pending, to
   be revisited if a future round picks them up.
 
+- L08 — **Experimental-parameter sensitivity.**
+  **Retired R4** — ACCEPT. (α = ±3.3, ω = 0.3374) is a commitment,
+  not a theoretical prescription; simulator now frames the choice
+  this way and flags the (α × ω) sensitivity sweep + log-uniform
+  spacing as Q07 / design-alternative section.
+- L10 — **Generative-model assumption audit.**
+  **Retired R4** — ACCEPT. Seven auxiliaries consolidated into
+  Bundle B in simulator README; Gaussian behavioural-noise defence
+  cited via Keemink 2018 / Park-Pillow 2024 / Prat-Carrabin-Harl-
+  Gershman 2026.
+
 ## Active backlog
 
-- L08 — **Experimental-parameter sensitivity.** Mirror-skew α choice,
-  prior SD, and theta range: which combinations collapse vs. preserve
-  H1–H5 separability? Robustness audit of the experimental design.
 - L09 — **Reference-paper reproduction honesty.** The simulator
   embeds `reproduce_stocker_simoncelli_fig4.png`, `reproduce_wei_stocker_fig4.png`,
   `reproduce_acerbi_fig1.png`. Are the reproductions faithful in
   assumptions or silently re-parametrised? Audit the reproduction code.
-- L10 — **Generative-model assumption audit.** The BLS observer
-  assumes (i) Gaussian encoding noise in m-space, (ii) veridical prior,
-  (iii) no motor noise, (iv) no attention lapses, (v) no trial-to-trial
-  adaptation. Each assumption is a modelling choice that could be
-  relaxed.
-- L11 — **Empirical precedent for efficient-CDF encoding in timing.**
-  Wei-Stocker 2015 used orientation data. Has anyone demonstrated the
-  same encoding in interval-timing tasks, or is H2/H3 a direct port
-  without empirical backing in the domain?
-- L12 — **Alternative observer frameworks.** Sequential-sampling /
-  drift-diffusion accounts of duration reproduction, log-normal
-  Bayesian observers (Jazayeri-Shadlen), reinforcement-learning
-  accounts. Should any be cells of their own, or parametric variants?
-- L13 — **Prior-learning dynamics.** The simulator assumes a stationary
+- L13 — **Prior-learning dynamics (extended).** The simulator assumes a stationary
   subjective prior. Empirical evidence on the time course of
   prior-learning in mirror-skew designs is sparse; does this matter
   for MCMC?

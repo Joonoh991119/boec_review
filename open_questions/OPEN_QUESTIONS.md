@@ -79,3 +79,24 @@ tens-of-trials learning rate.
 
 **Status**: deferred — simulator code change, out of scope for
 theoretical review.
+
+---
+
+## From R4
+
+### Q07 — prior-parameter sensitivity sweep
+Sweep (α, ω) over a lattice — α ∈ [±1.5, ±5.0], ω ∈ [0.15, 0.40]
+— and re-render bias(θ) / SD(θ) / α_sda predictions. Report the
+subset where H1-H5 separability is preserved. Follow Depaoli-Winter-
+Visser 2020 or Sridharan-Castiglione 2014 for the sensitivity
+method.
+
+**Status**: deferred — simulator code task.
+
+### Q08 — response-skewness auxiliary-violation threshold
+Calibrate a threshold |γ(response-distribution skewness)| beyond
+which the Gaussian-noise auxiliary (Bundle item i) is violated
+strongly enough to invalidate the Wei-Stocker 2016 MI bound. Requires
+pilot behavioural data.
+
+**Status**: deferred — empirical calibration.
