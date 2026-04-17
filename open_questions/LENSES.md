@@ -12,22 +12,21 @@ retired from rotation once a round has been committed against it.
 - L03 — **Metric overfit and falsifiability.** Whether the two primary
   discriminators are selected because H1–H5 differ on them or because
   they are neutrally falsifying.
+- L04 — **Design-prediction circularity.** Does the mirror-skew prior
+  (α = ±3.3, mean ≈ 1.1 s, SD ≈ 0.22 s) pre-bias the simulator toward
+  BOEC-family detection?  **Retired R1** — ACCEPT the optimistic-bound
+  concern (see R1 synthesis); subject-side deviations (Luu 2018,
+  Roach 2016, Acerbi 2012) soften the predicted signature.
+- L05 — **Theoretical coherence across the 8 references.**
+  **Retired R1** — ACCEPT the unification argument; H2 / H3 / H5 are
+  three sample points on a continuous α-axis (Prat-Carrabin-Woodford
+  2020) rather than three independent mechanisms.
+- L06 — **H6 / H7 candidate assessment.**
+  **Retired R1** — ACCEPT Ganguli's framing: H6 / H7 are endpoints of
+  the same α-axis; no new discrete cells added.
 
 ## Active backlog
 
-- L04 — **Design-prediction circularity.** Does the mirror-skew prior
-  (α = ±3.3, mean ≈ 1.1 s, SD ≈ 0.22 s) pre-bias the simulator toward
-  BOEC-family detection? Alternative priors (|α| larger, smaller,
-  multimodal).
-- L05 — **Theoretical coherence across the 8 references.** Wei-Stocker
-  2015 attributes SD inflation to efficient-coding gain; Prat-Carrabin
-  2024 attributes it to prior skew. Can both be true? Is the simulator
-  hedging?
-- L06 — **H6 / H7 candidate assessment.** Power-law encoding
-  f(θ) = k · θ^q (Stocker-Simoncelli 2006 speed case) and the
-  prior-only anti-Weber observer (linear encoding, constant noise,
-  subjective ≠ objective prior, Prat-Carrabin 2024). Do they deserve
-  their own cells?
 - L07 — **Identifiability proofs vs. practical sample size.**
   Hahn-Wang-Wei 2025 proves identifiability under multi-noise-level
   data. The present design has two priors but a single effective noise

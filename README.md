@@ -92,7 +92,8 @@ boec_review/
 
 | Round | Lens | Status | Commit |
 |---|---|---|---|
-| R0 | Loop setup | done | this commit |
+| R0 | Loop setup | done | [R0] initial commit |
+| R1 | L04 design circularity · L05 theoretical coherence · L06 H6/H7 | done | [R1] see `rounds/R01_synthesis.md` |
 
 (Future rounds appended by the loop.)
 
