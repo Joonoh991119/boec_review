@@ -98,6 +98,7 @@ boec_review/
 | R3 | L11 efficient-CDF in timing · L12 alt frameworks · L13 prior dynamics | done | [R3] see `rounds/R03_synthesis.md` |
 | R4 | L08 parameter sensitivity · L10 generative-model assumption audit | done | [R4] see `rounds/R04_synthesis.md` |
 | R5 | L09 reproduction honesty · L18 replication status · L15 confounders | done | [R5] see `rounds/R05_synthesis.md` |
+| R6 | L20 consistency audit · L22 pre-registration readiness | done | [R6] see `rounds/R06_synthesis.md` |
 
 (Future rounds appended by the loop.)
 

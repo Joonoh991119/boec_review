@@ -86,20 +86,23 @@ retired from rotation once a round has been committed against it.
   robust vs. classical-contested vs. recent-unreplicated vs.
   theory-only.
 
-## R6 candidates (new lenses against anchor-paper overfit)
+## Completed by R6
+
+- L20 — **Consistency audit across R1-R5 amendments.**
+  **Retired R6** — ACCEPT. No contradictions; three consolidation
+  opportunities addressed: §Parametric commitments block added,
+  α-axis / H-cell notation clarification added.
+- L22 — **Pre-registration readiness.**
+  **Retired R6** — ACCEPT. Simulator is Stage 1a (hypothesis
+  specification) but not Stage 1b (full analysis plan).
+  §Registered-report readiness and gaps block added listing 7
+  items a downstream protocol repo must provide.
+
+## R7+ candidates
 
 - L19 — **Bayesian Efficient Coding and likelihood-shape
   frameworks.** Park & Pillow 2024; Beck et al. PPC tradition.
   Do these offer anything beyond the α-axis re-framing from R1?
-- L20 — **Consistency audit across R1-R5 amendments.** All the
-  caveats accumulated — Bundle B (8 items), α-axis, Q(θ)
-  interpretive, identifiability floor, unfitted alternatives,
-  stationarity, parameter-commitment, reproduction honesty,
-  replication status — do they interact in contradictory ways?
 - L21 — **Competing unified accounts.** Prat-Carrabin-Harl-
   Gershman 2026 dynamic-network formulation as an alternative
   unifying meta-framework to Hahn-Wei 2022 additive decomposition.
-- L22 — **Pre-registration readiness.** Does the simulator's
-  H-set + Bundle B + discriminators now constitute a sufficient
-  pre-registered hypothesis document for a registered-report
-  analysis plan?
