@@ -98,11 +98,23 @@ retired from rotation once a round has been committed against it.
   §Registered-report readiness and gaps block added listing 7
   items a downstream protocol repo must provide.
 
-## R7+ candidates
+## Completed by R7
 
-- L19 — **Bayesian Efficient Coding and likelihood-shape
-  frameworks.** Park & Pillow 2024; Beck et al. PPC tradition.
-  Do these offer anything beyond the α-axis re-framing from R1?
-- L21 — **Competing unified accounts.** Prat-Carrabin-Harl-
-  Gershman 2026 dynamic-network formulation as an alternative
-  unifying meta-framework to Hahn-Wei 2022 additive decomposition.
+- L19 — **Bayesian Efficient Coding and likelihood-shape frameworks.**
+  **Retired R7** — ACCEPT. α-axis does NOT subsume BEC or PPC.
+  §Meta-framework commitment block added to simulator naming
+  Wei-Stocker-static-MI as the framework choice and BEC/PPC as
+  distinct alternatives.
+- L21 — **Competing unified accounts.**
+  **Retired R7** — ACCEPT. PCHG 2026 gain-adaptive recurrent and
+  resource-rational/rational-inattention (Lieder-Griffiths 2020;
+  Bhui-Lai-Gershman 2021; Woodford 2020) added to §Models we did
+  not fit. §Parametric commitments extended with 'static tuning
+  curves' bullet. Ninth pre-registration disclosure added.
+
+## Loop status
+
+All 22 enumerated lenses (primary L04-L15, plus additions L16-L22)
+are retired. R8 should be a consolidation round producing an
+outward-facing summary, and a checkpoint for the user to decide
+whether to continue with new lenses or pause the loop.

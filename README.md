@@ -99,6 +99,7 @@ boec_review/
 | R4 | L08 parameter sensitivity · L10 generative-model assumption audit | done | [R4] see `rounds/R04_synthesis.md` |
 | R5 | L09 reproduction honesty · L18 replication status · L15 confounders | done | [R5] see `rounds/R05_synthesis.md` |
 | R6 | L20 consistency audit · L22 pre-registration readiness | done | [R6] see `rounds/R06_synthesis.md` |
+| R7 | L19 BEC & PPC frameworks · L21 competing unified accounts | done | [R7] see `rounds/R07_synthesis.md` |
 
 (Future rounds appended by the loop.)
 
