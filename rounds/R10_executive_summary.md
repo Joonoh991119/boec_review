@@ -80,21 +80,30 @@
 
 ## 6. 시뮬레이터 amendment 레지스터
 
-이번 사이클에서 simulator README에 적용된 amendment:
+이번 사이클에서 simulator README에 적용된 9개 amendment의 정확한 위치
+(boec_simulator/README.md, 2026-04-18 기준 line numbers):
 
-| Amendment | 위치 | 출처 |
-|---|---|---|
-| B9R5 | Bundle B item (viii) | B_Q09 R5 |
-| B5R5 | §Identifiability item 4 | B_Q05 R5 |
-| B6R5 | Bundle B item 3 | B_Q06 R5 |
-| R9-integration | §Experimental-protocol recommendation (신규) | R09 |
-| Q01 | §η-axis Prat-Carrabin-Woodford | Q01 분석 |
-| Q04 | §Integrated Q(θ) | Q04 분석 |
-| Q08 | Bundle B item 1 | Q08 분석 |
-| Q02 | Bundle B item 2 | Q02 분석 |
-| Q03 | §Models we did not fit (H6) | Q03 분석 |
+| # | Amendment | README §       | Lines    | Source document                                            | Anchor text in README                                                  |
+|---|-----------|----------------|----------|-----------------------------------------------------------|-----------------------------------------------------------------------|
+| 1 | Q01       | η-axis (PCW)   | 346–368  | notes/Q01_alpha_axis.md                                  | "H-cell α-axis mapping table (Q01 review, 2026-04-18)"                |
+| 2 | Q08       | Bundle B (i)   | 535–552  | notes/Q08_response_skewness_threshold.md                 | "Operational threshold (Q08 review, 2026-04-18)"                       |
+| 3 | Q02       | Bundle B (ii)  | 559–573  | notes/Q02_subject_bands.md                               | "Subject-conditional bands (Q02 review, 2026-04-18)"                   |
+| 4 | B6R5      | Bundle B (iii) | 524–594  | branches/B_Q06_time_varying_prior/round05_final.md       | "Stationarity caveat: quantitative bound (B_Q06 review, 2026-04-18)"   |
+| 5 | B9R5      | Bundle B (viii)| 623–637  | branches/B_Q09_serial_dependence/round05_final.md        | "Quantitative attenuation (B_Q09 review, 2026-04-18)"                  |
+| 6 | R9-integ. | §Experimental-protocol recommendation (new) | 644–678 | rounds/R09_branch_integration.md | "(B_Q09 + B_Q05 + B_Q06 review, 2026-04-18)"                           |
+| 7 | Q03       | §Models we did not fit | 908–928 | notes/Q03_decoupled_priors.md                          | "Decoupled encoding/decoding priors (Q03 review, 2026-04-18)"          |
+| 8 | B5R5      | §Identifiability item 4 | 948–963 | branches/B_Q05_hmc_power/round05_decision.md         | "Sample-size floor (B_Q05 review, 2026-04-18)"                         |
+| 9 | Q04       | §Integrated Q(θ) | 995–1015 | notes/Q04_Q_theta_null_distribution.md                 | "Null distribution characterisation (Q04 review, 2026-04-18)"          |
 
-총 9개 정량적 amendment.
+Validation: each anchor was greped on 2026-04-18 and confirmed present.
+The line numbers will drift as the README grows; the anchor text is the
+durable identifier.
+
+Code outputs accompanying the amendments:
+- `tools/q7_alpha_omega_sweep.m` (Q07 sensitivity sweep, MATLAB; design point +72.2 ms)
+- `tools/make_fig3_alpha_axis.py` (Q01 continuous α-axis figure)
+- `tools/build_bls_lookup.py` (Q06 latent-drift HMC lookup table; 1008 cells in 1.4 s, design point cross-validates with q7 to ±0 ms)
+- `figures/boec_fig3_alpha_axis.png`, `figures/exante_q7_*.png`, `figures/q7_alpha_omega_sweep_results.mat`, `figures/bls_lookup_table.npz`
 
 ---
 
