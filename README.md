@@ -100,6 +100,22 @@ boec_review/
 | R5 | L09 reproduction honesty · L18 replication status · L15 confounders | done | [R5] see `rounds/R05_synthesis.md` |
 | R6 | L20 consistency audit · L22 pre-registration readiness | done | [R6] see `rounds/R06_synthesis.md` |
 | R7 | L19 BEC & PPC frameworks · L21 competing unified accounts | done | [R7] see `rounds/R07_synthesis.md` |
+| R8 | Consolidation — executive summary | done | [R8] see `rounds/R08_executive_summary.md` |
+
+## Executive summary
+
+A self-contained 600-word outward-facing document is at
+**[`rounds/R08_executive_summary.md`](rounds/R08_executive_summary.md)**.
+Lab-external readers should start there.
+
+## Loop status
+
+All 22 enumerated lenses (L04–L15 primary + L16–L22 mid-loop
+additions) have been retired across R1–R7. ~100 non-anchor widening
+references engaged. The autonomous phase of the loop concludes at
+R8. The loop awaits user checkpoint for whether to (a) open new
+lenses, (b) dive into one of the nine deferred open questions
+(Q01–Q09), or (c) pause indefinitely.
 
 (Future rounds appended by the loop.)
 
