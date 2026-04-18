@@ -97,6 +97,7 @@ boec_review/
 | R2 | L07 identifiability × sample size · L14 Q(θ) discriminator | done | [R2] see `rounds/R02_synthesis.md` |
 | R3 | L11 efficient-CDF in timing · L12 alt frameworks · L13 prior dynamics | done | [R3] see `rounds/R03_synthesis.md` |
 | R4 | L08 parameter sensitivity · L10 generative-model assumption audit | done | [R4] see `rounds/R04_synthesis.md` |
+| R5 | L09 reproduction honesty · L18 replication status · L15 confounders | done | [R5] see `rounds/R05_synthesis.md` |
 
 (Future rounds appended by the loop.)
 

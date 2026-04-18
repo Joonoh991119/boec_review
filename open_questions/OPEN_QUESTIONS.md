@@ -100,3 +100,16 @@ strongly enough to invalidate the Wei-Stocker 2016 MI bound. Requires
 pilot behavioural data.
 
 **Status**: deferred — empirical calibration.
+
+---
+
+## From R5
+
+### Q09 — serial-dependence simulation
+Add a trial-to-trial updating rule for the subjective prior (Wu et
+al. 2024 motor-coupled update) and simulate the (b_A, b_R) sign
+attenuation for interleaved vs. condition-blocked mirror-skew
+designs. Should the experiment block conditions to preserve the
+sign signature? Simulator code task.
+
+**Status**: deferred.

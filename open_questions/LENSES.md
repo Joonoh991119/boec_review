@@ -70,28 +70,36 @@ retired from rotation once a round has been committed against it.
 
 ## Active backlog
 
-- L09 — **Reference-paper reproduction honesty.** The simulator
-  embeds `reproduce_stocker_simoncelli_fig4.png`, `reproduce_wei_stocker_fig4.png`,
-  `reproduce_acerbi_fig1.png`. Are the reproductions faithful in
-  assumptions or silently re-parametrised? Audit the reproduction code.
-- L13 — **Prior-learning dynamics (extended).** The simulator assumes a stationary
-  subjective prior. Empirical evidence on the time course of
-  prior-learning in mirror-skew designs is sparse; does this matter
-  for MCMC?
-- L15 — **Confounders in the mirror-skew design.** Stimulus order,
-  adaptation, response mapping. Do any erase the bias-sign signature?
+- L09 — **Reference-paper reproduction honesty.**
+  **Retired R5** — ACCEPT. Figure captions now explicitly state
+  "pipeline-fidelity sanity check, not data-level replication";
+  per-figure assumption differences listed; Stocker-Simoncelli
+  2006 prior contestation flagged.
+- L15 — **Confounders in the mirror-skew design.**
+  **Retired R5** — ACCEPT. Serial dependence is a dominant within-
+  task confounder (Cicchini-Mikellidou-Burr 2018, Li-Wang-Zaidel
+  2026, Wu et al. 2024, Manassi-Murai-Whitney 2023). iid-trials
+  added to Bundle B as item (viii); Q09 filed.
+- L18 — **Replication status of the 8 anchor papers.**
+  **Retired R5** — ACCEPT. Anchor-paper replication-status table
+  added to simulator; non-uniform status classifying classical-
+  robust vs. classical-contested vs. recent-unreplicated vs.
+  theory-only.
 
-## Additions queued (against anchor-paper overfit)
+## R6 candidates (new lenses against anchor-paper overfit)
 
-- L16 — **Neural population-code evidence for timing.** The simulator's
-  efficient-CDF commitment rests on vision (MT) and orientation (V1)
-  neural data. What does the timing literature say at the neural
-  population level?
-- L17 — **Bayesian-alternative unified accounts.** Beyond Hahn-Wei
-  2022 additive decomposition, other unifying frameworks: Bayesian
-  Efficient Coding (Park & Pillow 2020), likelihood shape approaches
-  (Beck et al.), rational inattention (Woodford). Are any a better
-  fit than efficient-coding for timing?
-- L18 — **Replication status of the 8 anchor papers.** Has any of
-  the 8 been replicated or challenged by independent groups? Any
-  null results to consider?
+- L19 — **Bayesian Efficient Coding and likelihood-shape
+  frameworks.** Park & Pillow 2024; Beck et al. PPC tradition.
+  Do these offer anything beyond the α-axis re-framing from R1?
+- L20 — **Consistency audit across R1-R5 amendments.** All the
+  caveats accumulated — Bundle B (8 items), α-axis, Q(θ)
+  interpretive, identifiability floor, unfitted alternatives,
+  stationarity, parameter-commitment, reproduction honesty,
+  replication status — do they interact in contradictory ways?
+- L21 — **Competing unified accounts.** Prat-Carrabin-Harl-
+  Gershman 2026 dynamic-network formulation as an alternative
+  unifying meta-framework to Hahn-Wei 2022 additive decomposition.
+- L22 — **Pre-registration readiness.** Does the simulator's
+  H-set + Bundle B + discriminators now constitute a sufficient
+  pre-registered hypothesis document for a registered-report
+  analysis plan?
