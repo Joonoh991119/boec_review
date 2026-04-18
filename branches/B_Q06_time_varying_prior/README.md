@@ -49,5 +49,10 @@ See `k_dense_prompt.md`.
 
 ## Cross-branch pointers
 
-- B_Q05 status: _pending_
-- B_Q09 status: _pending_
+- B_Q05 status: **CLOSED** (B5R5 2026-04-18) — power ADEQUATE; sample-size floor N=30
+- B_Q09 status: **CLOSED** (B9R5 2026-04-18) — interleaved + prev_response recommended
+- B_Q06 status: **CLOSED** (B6R5 2026-04-18) — learning-driven α_sda ≈ 16% (< 40% criterion); decontamination: latent-drift HMC
+
+## Amendment applied to boec_simulator/README.md
+
+Bundle B item 3 (§Identifiability guarantees): quantitative stationarity bound added. [B6R5 2026-04-18]
