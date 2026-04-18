@@ -62,5 +62,5 @@ See `k_dense_prompt.md` in this directory.
 
 ## Cross-branch pointers (filled after other branches complete)
 
-- B_Q05 status: _not started_
-- B_Q06 status: _not started_
+- B_Q05 status: _not started_ — R4 notes: B_Q05 완료 시 43 ms threshold 재검토 권장; blocking 없음
+- B_Q06 status: _not started_ — R4 notes: learning 비대칭 위험 실질적이면 R5 각주 추가
