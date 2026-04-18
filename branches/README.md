@@ -41,6 +41,38 @@ protocol as the main loop:
   consolidates branch outputs into a single experimental-protocol
   recommendation document.
 
+## Round-level protocol (Karpathy-pattern adaptation)
+
+Applied to every branch, every round:
+
+**Phase B — skill invocation**. Each round's external-research pass
+should read the round brief alongside these three local skills (at
+`skills-repo/claude-scientific-skills/scientific-skills/`) even if
+not explicitly invoked as Skills:
+
+- `literature-review` — template for Round-1 research passes. Query
+  discipline, evidence-quality scoring, bibliography structure.
+- `peer-review` — template for Round-2 persona critiques. Checklist-
+  based assessment, disagreement surfacing.
+- `scientific-writing` — template for Round-3 synthesis prose.
+  Paragraph structure, claim-support traceability, sentence-level
+  hedging calibration.
+
+**Phase C — delta-check (mandatory)**. Every round document ends with
+
+> **Delta**: [what did the simulator gain or lose from this round?
+> Quantitative bullet list; if nothing gained, the round is a
+> non-improvement and the branch should early-exit.]
+
+This is the Karpathy `autoresearch` propose-evaluate-keep-if-improved
+discipline, adapted to theoretical review. Non-improving rounds are
+not padded to fill the 5-round cap; they trigger early exit.
+
+**Phase A — program.md per branch**. Each branch has its own
+`program.md` file (Karpathy-style) listing: Objective / Modify /
+Leave-alone / Evaluation criterion / Failure-handling / No-help /
+Budget / Delta-check template.
+
 ## Branch roster
 
 - [`B_Q09_serial_dependence/`](B_Q09_serial_dependence/) — first
